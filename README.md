@@ -2,7 +2,7 @@
 
 ## Autor
 
-Nombre y apellidos: _(completa aquí tu nombre)_
+Nombre y apellidos: Álvaro García-Quismondo Lizana
 
 ## Entorno
 
