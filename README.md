@@ -2,7 +2,7 @@
 
 ## Autor
 
-Nombre y apellidos: Álvaro García-Quismondo Lizana
+Nombre y apellidos: _(completa aquí tu nombre)_
 
 ## Entorno
 
@@ -20,43 +20,46 @@ practica-scala/
 ├── README.md                    (este archivo)
 │
 ├── parte1/                      Entornos de trabajo
-│   ├── entorno1-jupyterlab.md
-│   ├── entorno2-vscode.md
-│   ├── entorno3-intellij.md
-│   └── notebook/
-│       └── entorno-scala.ipynb
+│   ├── images/
+│   └── parte1/
+│       ├── entorno1-jupyterlab.md
+│       ├── entorno2-vscode.md
+│       ├── entorno3-intellij.md
+│       ├── notebook/
+│       │   └── entorno-scala.ipynb
+│       ├── vscode/
+│       └── intellij/
 │
 ├── parte2/                      Ejercicios de programación en JupyterLab
-│   ├── README.md
-│   └── parte2-scala.ipynb
+│   ├── parte2-readme.md
+│   ├── parte2-scala.ipynb
+│   └── images/
 │
-├── parte3/                      Mini proyectos
-│   ├── README.md
-│   ├── parte3-1-vscode/
-│   │   ├── README.md
-│   │   ├── images/
-│   │   └── torneo-twenty-one/
-│   └── parte3-2-intellij/
-│       ├── README.md
-│       ├── images/
-│       └── analizador-notas/
-│
-└── images/                      Capturas de las Partes 1 y 2
+└── parte3/                      Mini proyectos
+    ├── parte3-readme.md
+    ├── parte3-1-vscode/
+    │   ├── parte3-1-readme.md
+    │   ├── images/
+    │   └── torneo-twenty-one/
+    └── parte3-2-intellij/
+        ├── parte3-2-readme.md
+        ├── images/
+        └── analizador-notas/
 ```
 
 ## Parte 1 — Entornos de trabajo
 
 Preparación de tres entornos de desarrollo distintos para trabajar con Scala 2.12 y JDK 17:
 
-- **Entorno 1**: JupyterLab + Almond Kernel → [Ver documentación](./parte1/entorno1-jupyterlab.md)
-- **Entorno 2**: Visual Studio Code + Metals + sbt → [Ver documentación](./parte1/entorno2-vscode.md)
-- **Entorno 3**: IntelliJ IDEA Community + sbt → [Ver documentación](./parte1/entorno3-intellij.md)
+- **Entorno 1**: JupyterLab + Almond Kernel → [Ver documentación](./parte1/parte1/entorno1-jupyterlab.md)
+- **Entorno 2**: Visual Studio Code + Metals + sbt → [Ver documentación](./parte1/parte1/entorno2-vscode.md)
+- **Entorno 3**: IntelliJ IDEA Community + sbt → [Ver documentación](./parte1/parte1/entorno3-intellij.md)
 
 ## Parte 2 — Programación con Scala
 
 15 ejercicios de programación básica (variables, tipos, funciones, arrays, listas, estructuras de control, mutabilidad/inmutabilidad, estilo imperativo/funcional) resueltos en un notebook de JupyterLab con Almond.
 
-Ver [Parte 2](./parte2/README.md)
+Ver [Parte 2](./parte2/parte2-readme.md)
 
 ## Parte 3 — Mini proyectos
 
@@ -65,4 +68,4 @@ Dos mini proyectos que integran los conceptos trabajados en las partes anteriore
 - **Parte 3.1**: Clasificador de resultados de un torneo de Twenty-One (Visual Studio Code + Metals + sbt)
 - **Parte 3.2**: Analizador de calificaciones de un grupo (IntelliJ IDEA + sbt)
 
-Ver [Parte 3](./parte3/README.md)
+Ver [Parte 3](./parte3/parte3-readme.md)
